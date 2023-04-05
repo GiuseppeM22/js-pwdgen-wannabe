@@ -10,3 +10,6 @@ document.getElementById("cognome").innerText = cognome;
 let colore = prompt("qual è il tuo colore preferito?");
 console.log(`${nome} dichiara che il suo colore preferito è il ${colore}`)
 document.getElementById("colore").innerText = colore;
+
+let password = (`${nome}-${cognome}-${colore}-2023`)
+document.getElementById("password").innerText = password;
